@@ -4,7 +4,7 @@ import pymongo
 app = Flask(__name__)
 
 
-hf_token = ""
+hf_token = "hf_token"
 embedding_url = "https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-MiniLM-L6-v2"
 
 
@@ -17,7 +17,7 @@ def generate_embedding(text: str) -> list[float]:
    raise ValueError(f"Request failed with status code {response.status_code}: {response.text}")
  return response.json()
     
-URI = ""
+URI = "mongo_URI"
 conn = pymongo.MongoClient(URI)
 db = conn['sample_mflix']
 coll = db['movies']
