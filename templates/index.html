@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Movie Search</title>
+</head>
+<body>
+    <div class="search-container">
+        <h1>Find that Film</h1>
+        <form method="POST">
+            <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+            <textarea class="search-bar" name="search_term" placeholder="Search" rows="1" cols="30">{{ request.form.search_term or "" }}</textarea><br>
+            <button class="search-btn" type="submit">Search</button>
+        </form>
+    </div>
+
+
+    {% if result %}
+    <div class="result-container">
+        {% for movie in result %}
+        <div class="movie">
+            <div class="movie-overlay" id="overlay-{{ loop.index }}">
+                <img src="{{ movie.poster }}" alt="{{ movie.title }} poster" class="overlay-poster">
+                <div class="overlay-plot">{{ movie.plot }}</div>
+                <button class="close-btn" onclick="closeOverlay()">Close</button>
+            </div>
+            <img src="{{ movie.poster }}" alt="{{ movie.title }} poster" class="movie-poster" onclick="showOverlay('overlay-{{ loop.index }}')">
+            <div class="movie-title">{{ movie.title }}</div>
+            <div class="movie-cast">{{ movie.cast | join(', ') }}</div>
+            <div class="movie-year">{{ movie.year }}</div>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+    
+    <script>
+    function showOverlay(overlayId) {
+        console.log("Showing overlay:", overlayId);
+        closeOverlay();
+        document.getElementById(overlayId).classList.add('overlay-show');
+    }
+    
+    function closeOverlay() {
+    console.log("Close button clicked"); // Add this line for debugging
+    var overlays = document.querySelectorAll('.movie-overlay');
+    overlays.forEach(function(overlay) {
+        overlay.classList.remove('overlay-show');
+    });
+}
+
+
+    
+    </script>
+
+
+</body>
+</html>
