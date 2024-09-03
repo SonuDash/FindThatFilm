@@ -13,3 +13,5 @@ Now you don't have to worry about it, presenting **Find that Film**, now you can
 The intro to the application pretty much explains the problem statement. It's basically the problem that, cinema industry is ever-expanding, especially in an era where Indian-Film-Industry alone churns out 100s of movies every year, it's very hard to keep a track of all the name by the viewers, however some movies and their plots stand out to the viewers and this application will provide a medium to find the movies that viewers like using just keywords.
 
 ## Proposed Solution
+
+![image](https://github.com/user-attachments/assets/51772752-62b7-41f0-9604-6cedbf4c0fb2)
