@@ -1,6 +1,6 @@
 import requests
 import pymongo, sys
-hf_token = "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"
+hf_token = "hf_token"
 embedding_url = "https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-MiniLM-L6-v2"
 
 
@@ -14,7 +14,7 @@ def generate_embedding(text: str) -> list[float]:
  return response.json()
 
 
-URI = "mongodb+srv://tikdot69:DHnrSoayyWIjsto0@clusteruno.gfw8s.mongodb.net/?retryWrites=true&w=majority&appName=ClusterUno"
+URI = "mongo_URI"
 conn = pymongo.MongoClient(URI)
 db = conn['sample_mflix']
 coll = db['movies']
