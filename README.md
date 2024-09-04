@@ -16,7 +16,7 @@ The intro to the application pretty much explains the problem statement. It's ba
 The proposed solution is to build an application which will provide number of movie options to uers whose plot and setting matches their custom description that they provided in the searchbox.
 
 ![image](https://github.com/user-attachments/assets/51772752-62b7-41f0-9604-6cedbf4c0fb2)
-The demo of **Find that Film**
+<p align = "center">The demo of **Find that Film** it has generated some movie suggestion based on my custom description</p>
 
 ## Pre-Requisites:
 1. Python
