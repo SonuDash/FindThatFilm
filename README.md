@@ -4,7 +4,7 @@ Imagine you are with your crush sitting on a park bench and having a deep conver
 <p align = "center">You have f***ed up the date.</p>
 
 
-<p align = "center">![image](https://github.com/user-attachments/assets/2c0bf0c0-dbcc-4da9-abe8-4f0d5d872f2c)</p>
+![image](https://github.com/user-attachments/assets/2c0bf0c0-dbcc-4da9-abe8-4f0d5d872f2c)
 
 Now you don't have to worry about it, presenting **Find that Film**, now you can just enter the keywords for the movie in the generous search box and get a list of all the related movies. Be it a date, a family get together, first day at a corporate sprint meeting (I hate 'em) or just random mind mapping, **Find that Film** got your back.
 
@@ -15,7 +15,7 @@ The intro to the application pretty much explains the problem statement. It's ba
 ## Proposed Solution
 The proposed solution is to build an application which will provide number of movie options to uers whose plot and setting matches their custom description that they provided in the searchbox.
 
-<p align = "center">![image](https://github.com/user-attachments/assets/51772752-62b7-41f0-9604-6cedbf4c0fb2)</p>
+![image](https://github.com/user-attachments/assets/51772752-62b7-41f0-9604-6cedbf4c0fb2)
 <p align = "center">The demo of **Find that Film** it has generated some movie suggestion based on my custom description</p>
 
 ## Pre-Requisites:
