@@ -56,7 +56,7 @@ python3 app.py //for mac
 
 ## Problems that I faced:
 I faced some issues while making it.
-1. Setting up of the cluster, I suggest you check out the official MongoDB docs on how to set up a free-tier cluster for person usage.
+1. Setting up of the cluster, I suggest you check out the official MongoDB docs on how to set up a free-tier cluster for personal usage.
 2. Setting up the search index: In Mongo, it's easier for people to mistake **Atlas Search** for **Atlas Vector Search** or vice versa, the requirement here is an **Atlas Vector Search Index**
 3. Set all the db names correctly, One issue that I faced was I was trying to access the **'movies'** db from **'sample_mflix'** collections but I typed the db name incorrectly. Remember to put the same db name on which you are creating vector embedings on. AND ALL SET!!
 
