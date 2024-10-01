@@ -13,7 +13,7 @@ Now you don't have to worry about it, presenting **Find that Film**, now you can
 The intro to the application pretty much explains the problem statement. It's basically the problem that, cinema industry is ever-expanding, especially in an era where Indian-Film-Industry alone churns out 100s of movies every year, it's very hard to keep a track of all the name by the viewers, however some movies and their plots stand out to the viewers but there is no effective tool in the market which gives users their required information just from the movie descriptions.
 
 ## Proposed Solution
-The proposed solution is to build an application which will provide number of movie options to uers whose plot and setting matches their custom description that they provided in the searchbox.
+The proposed solution is to build an application which will provide number of movie options to users whose plot and setting matches their custom description that they provided in the searchbox.
 
 ![image](https://github.com/user-attachments/assets/51772752-62b7-41f0-9604-6cedbf4c0fb2)
 <p align = "center">The demo of **Find that Film** it has generated some movie suggestion based on my custom description</p>
